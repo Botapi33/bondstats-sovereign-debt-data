@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "status": "awaiting-first-refresh",
+  "generatedAt": null,
+  "country": {
+    "id": "at",
+    "code": "AT",
+    "imfCode": "AUT",
+    "name": "Austria",
+    "slug": "austria",
+    "currency": "EUR",
+    "bondMarket": "Austrian Government Bonds (RAGBs)",
+    "centralBank": "European Central Bank",
+    "dmo": "Austrian Federal Financing Agency",
+    "dmoUrl": "https://www.oebfa.at/en/"
+  },
+  "fiscal": {},
+  "market": {},
+  "ratings": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null,
+    "asOf": null,
+    "sourceNote": "Manual curation only. Agency ratings are not scraped automatically."
+  },
+  "maturity": {
+    "averageMaturityYears": null,
+    "buckets": [],
+    "asOf": null,
+    "sourceUrl": "https://www.oebfa.at/en/"
+  },
+  "history": {},
+  "sources": []
+}

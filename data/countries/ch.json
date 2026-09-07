@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "status": "awaiting-first-refresh",
+  "generatedAt": null,
+  "country": {
+    "id": "ch",
+    "code": "CH",
+    "imfCode": "CHE",
+    "name": "Switzerland",
+    "slug": "switzerland",
+    "currency": "CHF",
+    "bondMarket": "Swiss Confederation Bonds",
+    "centralBank": "Swiss National Bank",
+    "dmo": "Swiss Federal Finance Administration",
+    "dmoUrl": "https://www.efv.admin.ch/efv/en/home.html"
+  },
+  "fiscal": {},
+  "market": {},
+  "ratings": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null,
+    "asOf": null,
+    "sourceNote": "Manual curation only. Agency ratings are not scraped automatically."
+  },
+  "maturity": {
+    "averageMaturityYears": null,
+    "buckets": [],
+    "asOf": null,
+    "sourceUrl": "https://www.efv.admin.ch/efv/en/home.html"
+  },
+  "history": {},
+  "sources": []
+}

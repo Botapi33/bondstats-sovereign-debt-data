@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "status": "awaiting-first-refresh",
+  "generatedAt": null,
+  "country": {
+    "id": "be",
+    "code": "BE",
+    "imfCode": "BEL",
+    "name": "Belgium",
+    "slug": "belgium",
+    "currency": "EUR",
+    "bondMarket": "OLOs",
+    "centralBank": "European Central Bank",
+    "dmo": "Belgian Debt Agency",
+    "dmoUrl": "https://www.debtagency.be/en"
+  },
+  "fiscal": {},
+  "market": {},
+  "ratings": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null,
+    "asOf": null,
+    "sourceNote": "Manual curation only. Agency ratings are not scraped automatically."
+  },
+  "maturity": {
+    "averageMaturityYears": null,
+    "buckets": [],
+    "asOf": null,
+    "sourceUrl": "https://www.debtagency.be/en"
+  },
+  "history": {},
+  "sources": []
+}

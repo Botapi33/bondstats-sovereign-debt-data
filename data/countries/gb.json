@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "status": "awaiting-first-refresh",
+  "generatedAt": null,
+  "country": {
+    "id": "gb",
+    "code": "UK",
+    "imfCode": "GBR",
+    "name": "United Kingdom",
+    "slug": "united-kingdom",
+    "currency": "GBP",
+    "bondMarket": "Gilts",
+    "centralBank": "Bank of England",
+    "dmo": "UK Debt Management Office",
+    "dmoUrl": "https://www.dmo.gov.uk/"
+  },
+  "fiscal": {},
+  "market": {},
+  "ratings": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null,
+    "asOf": null,
+    "sourceNote": "Manual curation only. Agency ratings are not scraped automatically."
+  },
+  "maturity": {
+    "averageMaturityYears": null,
+    "buckets": [],
+    "asOf": null,
+    "sourceUrl": "https://www.dmo.gov.uk/"
+  },
+  "history": {},
+  "sources": []
+}

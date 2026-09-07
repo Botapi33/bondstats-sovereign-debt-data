@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "status": "awaiting-first-refresh",
+  "generatedAt": null,
+  "country": {
+    "id": "ca",
+    "code": "CA",
+    "imfCode": "CAN",
+    "name": "Canada",
+    "slug": "canada",
+    "currency": "CAD",
+    "bondMarket": "Government of Canada Bonds",
+    "centralBank": "Bank of Canada",
+    "dmo": "Department of Finance Canada",
+    "dmoUrl": "https://www.canada.ca/en/department-finance.html"
+  },
+  "fiscal": {},
+  "market": {},
+  "ratings": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null,
+    "asOf": null,
+    "sourceNote": "Manual curation only. Agency ratings are not scraped automatically."
+  },
+  "maturity": {
+    "averageMaturityYears": null,
+    "buckets": [],
+    "asOf": null,
+    "sourceUrl": "https://www.canada.ca/en/department-finance.html"
+  },
+  "history": {},
+  "sources": []
+}

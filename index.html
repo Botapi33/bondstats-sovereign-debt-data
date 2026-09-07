@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>BondStats Sovereign Debt Data</title>
+<style>
+body{margin:0;background:#090c0a;color:#ecebe4;font:14px system-ui}.w{max-width:1080px;margin:50px auto;padding:0 20px}
+h1{font:44px Georgia,serif;margin:0 0 10px}.k{color:#67d99a;font:700 10px monospace;letter-spacing:.15em}
+#grid{margin-top:35px;border-top:1px solid #29312b}.r{display:grid;grid-template-columns:60px 1fr 110px 110px 100px;gap:15px;padding:14px 0;border-bottom:1px solid #202720}.m{color:#828b84}
+@media(max-width:700px){.r{grid-template-columns:50px 1fr 90px}.r span:nth-child(4),.r span:nth-child(5){display:none}}
+</style></head><body><main class="w"><div class="k">BONDSTATS · DATA LAYER</div><h1>Sovereign Debt Profiles</h1><p class="m">Standalone data repository. The indexed country dossiers live on bondstats.org.</p><div id="grid">Loading…</div></main>
+<script>
+fetch('./data/catalog.json?x='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(d=>{
+ document.getElementById('grid').innerHTML=d.countries.map(c=>`<div class="r"><b>${c.code}</b><span>${c.name}</span><span>${c.grossDebtPctGdp==null?'—':c.grossDebtPctGdp+'% GDP'}</span><span>${c.y10==null?'—':c.y10+'% 10Y'}</span><span>${c.status}</span></div>`).join('');
+}).catch(()=>document.getElementById('grid').textContent='Data unavailable');
+</script></body></html>

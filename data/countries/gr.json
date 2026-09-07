@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "status": "awaiting-first-refresh",
+  "generatedAt": null,
+  "country": {
+    "id": "gr",
+    "code": "GR",
+    "imfCode": "GRC",
+    "name": "Greece",
+    "slug": "greece",
+    "currency": "EUR",
+    "bondMarket": "Greek Government Bonds (GGBs)",
+    "centralBank": "European Central Bank",
+    "dmo": "Public Debt Management Agency Greece",
+    "dmoUrl": "https://www.pdma.gr/en/"
+  },
+  "fiscal": {},
+  "market": {},
+  "ratings": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null,
+    "asOf": null,
+    "sourceNote": "Manual curation only. Agency ratings are not scraped automatically."
+  },
+  "maturity": {
+    "averageMaturityYears": null,
+    "buckets": [],
+    "asOf": null,
+    "sourceUrl": "https://www.pdma.gr/en/"
+  },
+  "history": {},
+  "sources": []
+}

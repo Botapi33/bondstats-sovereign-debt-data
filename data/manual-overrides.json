@@ -1,0 +1,197 @@
+{
+  "us": {
+    "ratings": {
+      "sp": null,
+      "moodys": null,
+      "fitch": null,
+      "asOf": null,
+      "sourceNote": "Manual curation only. Agency ratings are not scraped automatically."
+    },
+    "averageMaturityYears": null,
+    "maturityBuckets": [],
+    "maturityAsOf": null,
+    "maturitySourceUrl": "https://fiscaldata.treasury.gov/"
+  },
+  "jp": {
+    "ratings": {
+      "sp": null,
+      "moodys": null,
+      "fitch": null,
+      "asOf": null,
+      "sourceNote": "Manual curation only. Agency ratings are not scraped automatically."
+    },
+    "averageMaturityYears": null,
+    "maturityBuckets": [],
+    "maturityAsOf": null,
+    "maturitySourceUrl": "https://www.mof.go.jp/english/policy/jgbs/"
+  },
+  "it": {
+    "ratings": {
+      "sp": null,
+      "moodys": null,
+      "fitch": null,
+      "asOf": null,
+      "sourceNote": "Manual curation only. Agency ratings are not scraped automatically."
+    },
+    "averageMaturityYears": null,
+    "maturityBuckets": [],
+    "maturityAsOf": null,
+    "maturitySourceUrl": "https://www.dt.mef.gov.it/en/debito_pubblico/"
+  },
+  "de": {
+    "ratings": {
+      "sp": null,
+      "moodys": null,
+      "fitch": null,
+      "asOf": null,
+      "sourceNote": "Manual curation only. Agency ratings are not scraped automatically."
+    },
+    "averageMaturityYears": null,
+    "maturityBuckets": [],
+    "maturityAsOf": null,
+    "maturitySourceUrl": "https://www.deutsche-finanzagentur.de/en/"
+  },
+  "fr": {
+    "ratings": {
+      "sp": null,
+      "moodys": null,
+      "fitch": null,
+      "asOf": null,
+      "sourceNote": "Manual curation only. Agency ratings are not scraped automatically."
+    },
+    "averageMaturityYears": null,
+    "maturityBuckets": [],
+    "maturityAsOf": null,
+    "maturitySourceUrl": "https://www.aft.gouv.fr/en"
+  },
+  "gb": {
+    "ratings": {
+      "sp": null,
+      "moodys": null,
+      "fitch": null,
+      "asOf": null,
+      "sourceNote": "Manual curation only. Agency ratings are not scraped automatically."
+    },
+    "averageMaturityYears": null,
+    "maturityBuckets": [],
+    "maturityAsOf": null,
+    "maturitySourceUrl": "https://www.dmo.gov.uk/"
+  },
+  "ca": {
+    "ratings": {
+      "sp": null,
+      "moodys": null,
+      "fitch": null,
+      "asOf": null,
+      "sourceNote": "Manual curation only. Agency ratings are not scraped automatically."
+    },
+    "averageMaturityYears": null,
+    "maturityBuckets": [],
+    "maturityAsOf": null,
+    "maturitySourceUrl": "https://www.canada.ca/en/department-finance.html"
+  },
+  "au": {
+    "ratings": {
+      "sp": null,
+      "moodys": null,
+      "fitch": null,
+      "asOf": null,
+      "sourceNote": "Manual curation only. Agency ratings are not scraped automatically."
+    },
+    "averageMaturityYears": null,
+    "maturityBuckets": [],
+    "maturityAsOf": null,
+    "maturitySourceUrl": "https://www.aofm.gov.au/"
+  },
+  "es": {
+    "ratings": {
+      "sp": null,
+      "moodys": null,
+      "fitch": null,
+      "asOf": null,
+      "sourceNote": "Manual curation only. Agency ratings are not scraped automatically."
+    },
+    "averageMaturityYears": null,
+    "maturityBuckets": [],
+    "maturityAsOf": null,
+    "maturitySourceUrl": "https://www.tesoro.es/en"
+  },
+  "nl": {
+    "ratings": {
+      "sp": null,
+      "moodys": null,
+      "fitch": null,
+      "asOf": null,
+      "sourceNote": "Manual curation only. Agency ratings are not scraped automatically."
+    },
+    "averageMaturityYears": null,
+    "maturityBuckets": [],
+    "maturityAsOf": null,
+    "maturitySourceUrl": "https://english.dsta.nl/"
+  },
+  "ch": {
+    "ratings": {
+      "sp": null,
+      "moodys": null,
+      "fitch": null,
+      "asOf": null,
+      "sourceNote": "Manual curation only. Agency ratings are not scraped automatically."
+    },
+    "averageMaturityYears": null,
+    "maturityBuckets": [],
+    "maturityAsOf": null,
+    "maturitySourceUrl": "https://www.efv.admin.ch/efv/en/home.html"
+  },
+  "be": {
+    "ratings": {
+      "sp": null,
+      "moodys": null,
+      "fitch": null,
+      "asOf": null,
+      "sourceNote": "Manual curation only. Agency ratings are not scraped automatically."
+    },
+    "averageMaturityYears": null,
+    "maturityBuckets": [],
+    "maturityAsOf": null,
+    "maturitySourceUrl": "https://www.debtagency.be/en"
+  },
+  "at": {
+    "ratings": {
+      "sp": null,
+      "moodys": null,
+      "fitch": null,
+      "asOf": null,
+      "sourceNote": "Manual curation only. Agency ratings are not scraped automatically."
+    },
+    "averageMaturityYears": null,
+    "maturityBuckets": [],
+    "maturityAsOf": null,
+    "maturitySourceUrl": "https://www.oebfa.at/en/"
+  },
+  "pt": {
+    "ratings": {
+      "sp": null,
+      "moodys": null,
+      "fitch": null,
+      "asOf": null,
+      "sourceNote": "Manual curation only. Agency ratings are not scraped automatically."
+    },
+    "averageMaturityYears": null,
+    "maturityBuckets": [],
+    "maturityAsOf": null,
+    "maturitySourceUrl": "https://www.igcp.pt/en/"
+  },
+  "gr": {
+    "ratings": {
+      "sp": null,
+      "moodys": null,
+      "fitch": null,
+      "asOf": null,
+      "sourceNote": "Manual curation only. Agency ratings are not scraped automatically."
+    },
+    "averageMaturityYears": null,
+    "maturityBuckets": [],
+    "maturityAsOf": null,
+    "maturitySourceUrl": "https://www.pdma.gr/en/"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "status": "awaiting-first-refresh",
+  "generatedAt": null,
+  "country": {
+    "id": "nl",
+    "code": "NL",
+    "imfCode": "NLD",
+    "name": "Netherlands",
+    "slug": "netherlands",
+    "currency": "EUR",
+    "bondMarket": "Dutch State Loans (DSLs)",
+    "centralBank": "European Central Bank",
+    "dmo": "Dutch State Treasury Agency",
+    "dmoUrl": "https://english.dsta.nl/"
+  },
+  "fiscal": {},
+  "market": {},
+  "ratings": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null,
+    "asOf": null,
+    "sourceNote": "Manual curation only. Agency ratings are not scraped automatically."
+  },
+  "maturity": {
+    "averageMaturityYears": null,
+    "buckets": [],
+    "asOf": null,
+    "sourceUrl": "https://english.dsta.nl/"
+  },
+  "history": {},
+  "sources": []
+}

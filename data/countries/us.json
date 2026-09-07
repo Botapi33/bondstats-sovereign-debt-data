@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "status": "awaiting-first-refresh",
+  "generatedAt": null,
+  "country": {
+    "id": "us",
+    "code": "US",
+    "imfCode": "USA",
+    "name": "United States",
+    "slug": "united-states",
+    "currency": "USD",
+    "bondMarket": "U.S. Treasuries",
+    "centralBank": "Federal Reserve",
+    "dmo": "U.S. Department of the Treasury",
+    "dmoUrl": "https://fiscaldata.treasury.gov/"
+  },
+  "fiscal": {},
+  "market": {},
+  "ratings": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null,
+    "asOf": null,
+    "sourceNote": "Manual curation only. Agency ratings are not scraped automatically."
+  },
+  "maturity": {
+    "averageMaturityYears": null,
+    "buckets": [],
+    "asOf": null,
+    "sourceUrl": "https://fiscaldata.treasury.gov/"
+  },
+  "history": {},
+  "sources": []
+}

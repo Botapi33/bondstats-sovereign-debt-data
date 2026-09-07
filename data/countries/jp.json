@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "status": "awaiting-first-refresh",
+  "generatedAt": null,
+  "country": {
+    "id": "jp",
+    "code": "JP",
+    "imfCode": "JPN",
+    "name": "Japan",
+    "slug": "japan",
+    "currency": "JPY",
+    "bondMarket": "Japanese Government Bonds (JGBs)",
+    "centralBank": "Bank of Japan",
+    "dmo": "Ministry of Finance Japan",
+    "dmoUrl": "https://www.mof.go.jp/english/policy/jgbs/"
+  },
+  "fiscal": {},
+  "market": {},
+  "ratings": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null,
+    "asOf": null,
+    "sourceNote": "Manual curation only. Agency ratings are not scraped automatically."
+  },
+  "maturity": {
+    "averageMaturityYears": null,
+    "buckets": [],
+    "asOf": null,
+    "sourceUrl": "https://www.mof.go.jp/english/policy/jgbs/"
+  },
+  "history": {},
+  "sources": []
+}

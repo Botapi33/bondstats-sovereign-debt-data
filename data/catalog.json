@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "status": "awaiting-first-refresh",
+  "generatedAt": null,
+  "countryCount": 15,
+  "countries": [
+    {
+      "id": "us",
+      "code": "US",
+      "name": "United States",
+      "slug": "united-states",
+      "status": "awaiting-first-refresh"
+    },
+    {
+      "id": "jp",
+      "code": "JP",
+      "name": "Japan",
+      "slug": "japan",
+      "status": "awaiting-first-refresh"
+    },
+    {
+      "id": "it",
+      "code": "IT",
+      "name": "Italy",
+      "slug": "italy",
+      "status": "awaiting-first-refresh"
+    },
+    {
+      "id": "de",
+      "code": "DE",
+      "name": "Germany",
+      "slug": "germany",
+      "status": "awaiting-first-refresh"
+    },
+    {
+      "id": "fr",
+      "code": "FR",
+      "name": "France",
+      "slug": "france",
+      "status": "awaiting-first-refresh"
+    },
+    {
+      "id": "gb",
+      "code": "UK",
+      "name": "United Kingdom",
+      "slug": "united-kingdom",
+      "status": "awaiting-first-refresh"
+    },
+    {
+      "id": "ca",
+      "code": "CA",
+      "name": "Canada",
+      "slug": "canada",
+      "status": "awaiting-first-refresh"
+    },
+    {
+      "id": "au",
+      "code": "AU",
+      "name": "Australia",
+      "slug": "australia",
+      "status": "awaiting-first-refresh"
+    },
+    {
+      "id": "es",
+      "code": "ES",
+      "name": "Spain",
+      "slug": "spain",
+      "status": "awaiting-first-refresh"
+    },
+    {
+      "id": "nl",
+      "code": "NL",
+      "name": "Netherlands",
+      "slug": "netherlands",
+      "status": "awaiting-first-refresh"
+    },
+    {
+      "id": "ch",
+      "code": "CH",
+      "name": "Switzerland",
+      "slug": "switzerland",
+      "status": "awaiting-first-refresh"
+    },
+    {
+      "id": "be",
+      "code": "BE",
+      "name": "Belgium",
+      "slug": "belgium",
+      "status": "awaiting-first-refresh"
+    },
+    {
+      "id": "at",
+      "code": "AT",
+      "name": "Austria",
+      "slug": "austria",
+      "status": "awaiting-first-refresh"
+    },
+    {
+      "id": "pt",
+      "code": "PT",
+      "name": "Portugal",
+      "slug": "portugal",
+      "status": "awaiting-first-refresh"
+    },
+    {
+      "id": "gr",
+      "code": "GR",
+      "name": "Greece",
+      "slug": "greece",
+      "status": "awaiting-first-refresh"
+    }
+  ]
+}

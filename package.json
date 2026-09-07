@@ -1,0 +1,13 @@
+{
+  "name": "bondstats-sovereign-debt-data",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update": "node scripts/update-sovereign-debt.mjs",
+    "check": "node --check scripts/update-sovereign-debt.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

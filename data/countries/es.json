@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "status": "awaiting-first-refresh",
+  "generatedAt": null,
+  "country": {
+    "id": "es",
+    "code": "ES",
+    "imfCode": "ESP",
+    "name": "Spain",
+    "slug": "spain",
+    "currency": "EUR",
+    "bondMarket": "Bonos and Obligaciones",
+    "centralBank": "European Central Bank",
+    "dmo": "Tesoro Público",
+    "dmoUrl": "https://www.tesoro.es/en"
+  },
+  "fiscal": {},
+  "market": {},
+  "ratings": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null,
+    "asOf": null,
+    "sourceNote": "Manual curation only. Agency ratings are not scraped automatically."
+  },
+  "maturity": {
+    "averageMaturityYears": null,
+    "buckets": [],
+    "asOf": null,
+    "sourceUrl": "https://www.tesoro.es/en"
+  },
+  "history": {},
+  "sources": []
+}

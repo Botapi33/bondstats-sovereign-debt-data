@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "status": "awaiting-first-refresh",
+  "generatedAt": null,
+  "country": {
+    "id": "au",
+    "code": "AU",
+    "imfCode": "AUS",
+    "name": "Australia",
+    "slug": "australia",
+    "currency": "AUD",
+    "bondMarket": "Australian Government Securities",
+    "centralBank": "Reserve Bank of Australia",
+    "dmo": "Australian Office of Financial Management",
+    "dmoUrl": "https://www.aofm.gov.au/"
+  },
+  "fiscal": {},
+  "market": {},
+  "ratings": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null,
+    "asOf": null,
+    "sourceNote": "Manual curation only. Agency ratings are not scraped automatically."
+  },
+  "maturity": {
+    "averageMaturityYears": null,
+    "buckets": [],
+    "asOf": null,
+    "sourceUrl": "https://www.aofm.gov.au/"
+  },
+  "history": {},
+  "sources": []
+}

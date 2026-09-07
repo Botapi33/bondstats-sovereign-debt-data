@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "status": "awaiting-first-refresh",
+  "generatedAt": null,
+  "country": {
+    "id": "fr",
+    "code": "FR",
+    "imfCode": "FRA",
+    "name": "France",
+    "slug": "france",
+    "currency": "EUR",
+    "bondMarket": "OATs",
+    "centralBank": "European Central Bank",
+    "dmo": "Agence France Trésor",
+    "dmoUrl": "https://www.aft.gouv.fr/en"
+  },
+  "fiscal": {},
+  "market": {},
+  "ratings": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null,
+    "asOf": null,
+    "sourceNote": "Manual curation only. Agency ratings are not scraped automatically."
+  },
+  "maturity": {
+    "averageMaturityYears": null,
+    "buckets": [],
+    "asOf": null,
+    "sourceUrl": "https://www.aft.gouv.fr/en"
+  },
+  "history": {},
+  "sources": []
+}

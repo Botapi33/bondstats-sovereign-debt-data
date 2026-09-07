@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "status": "awaiting-first-refresh",
+  "generatedAt": null,
+  "country": {
+    "id": "pt",
+    "code": "PT",
+    "imfCode": "PRT",
+    "name": "Portugal",
+    "slug": "portugal",
+    "currency": "EUR",
+    "bondMarket": "OTs",
+    "centralBank": "European Central Bank",
+    "dmo": "Portuguese Treasury and Debt Management Agency (IGCP)",
+    "dmoUrl": "https://www.igcp.pt/en/"
+  },
+  "fiscal": {},
+  "market": {},
+  "ratings": {
+    "sp": null,
+    "moodys": null,
+    "fitch": null,
+    "asOf": null,
+    "sourceNote": "Manual curation only. Agency ratings are not scraped automatically."
+  },
+  "maturity": {
+    "averageMaturityYears": null,
+    "buckets": [],
+    "asOf": null,
+    "sourceUrl": "https://www.igcp.pt/en/"
+  },
+  "history": {},
+  "sources": []
+}
