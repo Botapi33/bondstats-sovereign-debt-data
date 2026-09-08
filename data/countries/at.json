@@ -1,11 +1,10 @@
 {
-  "version": 1,
+  "version": 2,
   "status": "live",
-  "generatedAt": "2026-09-08T12:16:15.255Z",
+  "generatedAt": "2026-09-08T14:02:02.561Z",
   "country": {
     "id": "at",
     "code": "AT",
-    "imfCode": "AUT",
     "name": "Austria",
     "slug": "austria",
     "currency": "EUR",
@@ -15,26 +14,24 @@
     "dmoUrl": "https://www.oebfa.at/en/"
   },
   "fiscal": {
-    "referenceYear": 2026,
-    "grossDebtPctGdp": 82.1,
-    "grossDebtUsdBn": 512.1,
-    "nominalGdpUsdBn": 623.7,
+    "referenceYear": 2025,
+    "debtDefinition": "General government consolidated gross debt (Maastricht debt), % of GDP",
+    "grossDebtPctGdp": 81.5,
+    "grossDebtUsdBn": 472.3,
+    "nominalGdpUsdBn": 579.5,
     "fiscalBalancePctGdp": -4.2,
-    "realGrowthPct": 0.7,
-    "inflationPct": 2.5,
-    "nextYearDebtPctGdp": 82.7,
-    "nextYear": 2027
+    "realGrowthPct": 0.6,
+    "inflationPct": 3.5,
+    "nextYearDebtPctGdp": null,
+    "nextYear": null
   },
   "market": {
-    "asOf": "2026-06-01",
+    "asOf": "2026-07",
     "y2": null,
     "y5": null,
-    "y10": 3.207,
+    "y10": 3.324,
     "y30": null,
-    "curveSource": "https://botapi33.github.io/bondstats-global-yields/global_yields.json",
-    "fallbackFrequency": "Monthly",
-    "fallbackTier": "monthly",
-    "fallbackSource": "fred",
+    "curveSource": "https://data-api.ecb.europa.eu/service/data/IRS/M.AT.L.L40.CI.0000.EUR.N.Z?format=csvdata",
     "s2s10": null,
     "s5s30": null
   },
@@ -53,19 +50,12 @@
   },
   "history": {
     "debtPctGdp": {
-      "1988": 57.7,
-      "1989": 56.6,
-      "1990": 56.2,
-      "1991": 56.4,
-      "1992": 56.3,
-      "1993": 61,
-      "1994": 64.1,
-      "1995": 68.2,
-      "1996": 68.2,
-      "1997": 63.4,
-      "1998": 69.2,
-      "1999": 61.3,
-      "2000": 66.1,
+      "1995": 68.6,
+      "1996": 68.6,
+      "1997": 63.9,
+      "1998": 64.3,
+      "1999": 67.1,
+      "2000": 66.6,
       "2001": 67.2,
       "2002": 67.4,
       "2003": 66.4,
@@ -89,36 +79,23 @@
       "2021": 82.4,
       "2022": 78.1,
       "2023": 77.8,
-      "2024": 79.2,
-      "2025": 80.5,
-      "2026": 82.1,
-      "2027": 82.7,
-      "2028": 83.4,
-      "2029": 84.2,
-      "2030": 85.2,
-      "2031": 86.4
+      "2024": 80,
+      "2025": 81.5
     },
     "fiscalBalancePctGdp": {
-      "1988": -3.4,
-      "1989": -3,
-      "1990": -2.6,
-      "1991": -3,
-      "1992": -2.1,
-      "1993": -4.6,
-      "1994": -5,
       "1995": -6.2,
-      "1996": -4.4,
-      "1997": -2.4,
-      "1998": -2.7,
+      "1996": -4.6,
+      "1997": -2.6,
+      "1998": -2.8,
       "1999": -2.6,
-      "2000": -2.1,
+      "2000": -2.4,
       "2001": -0.7,
       "2002": -1.4,
       "2003": -1.8,
       "2004": -4.9,
       "2005": -2.6,
       "2006": -2.6,
-      "2007": -1.6,
+      "2007": -1.4,
       "2008": -1.6,
       "2009": -5.4,
       "2010": -4.5,
@@ -135,25 +112,41 @@
       "2021": -5.7,
       "2022": -3.4,
       "2023": -2.6,
-      "2024": -4.7,
-      "2025": -4.5,
-      "2026": -4.2,
-      "2027": -3.8,
-      "2028": -3.8,
-      "2029": -3.7,
-      "2030": -3.6,
-      "2031": -3.6
+      "2024": -4.6,
+      "2025": -4.2
     }
+  },
+  "rights": {
+    "fiscal": {
+      "source": "Eurostat — Government deficit/surplus, debt and associated data (gov_10dd_edpt1)",
+      "licenseUrl": "https://ec.europa.eu/eurostat/help/copyright-notice"
+    },
+    "macro": {
+      "source": "World Bank World Development Indicators",
+      "licenseUrl": "https://datacatalog.worldbank.org/public-licenses"
+    },
+    "market": {
+      "source": "https://data-api.ecb.europa.eu/service/data/IRS/M.AT.L.L40.CI.0000.EUR.N.Z?format=csvdata",
+      "licenseUrl": "https://www.ecb.europa.eu/stats/ecb_statistics/governance_and_quality_framework/html/usage_policy.en.html"
+    },
+    "bondstatsNotice": "https://www.bondstats.org/data-license/"
   },
   "sources": [
     {
-      "name": "IMF World Economic Outlook / DataMapper",
-      "url": "https://www.imf.org/external/datamapper/api/v1/GGXWDG_NGDP/USA/JPN/ITA/DEU/FRA/GBR/CAN/AUS/ESP/NLD/CHE/BEL/AUT/PRT/GRC",
-      "status": "ok"
+      "name": "Eurostat — Government deficit/surplus, debt and associated data (gov_10dd_edpt1)",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10dd_edpt1?lang=en&freq=A&unit=PC_GDP&sector=S13&na_item=GD&geo=AT",
+      "status": "ok",
+      "rights": "https://ec.europa.eu/eurostat/help/copyright-notice"
     },
     {
-      "name": "BondStats Global Yield Curve Database",
-      "url": "https://botapi33.github.io/bondstats-global-yields/global_yields.json",
+      "name": "World Bank World Development Indicators",
+      "url": "https://api.worldbank.org/v2/country/AT/indicator/NY.GDP.MKTP.CD?format=json&per_page=100&date=1990:2030",
+      "status": "ok",
+      "rights": "https://datacatalog.worldbank.org/public-licenses"
+    },
+    {
+      "name": "Sovereign yield source",
+      "url": "https://data-api.ecb.europa.eu/service/data/IRS/M.AT.L.L40.CI.0000.EUR.N.Z?format=csvdata",
       "status": "ok"
     },
     {

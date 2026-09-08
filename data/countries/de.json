@@ -1,11 +1,10 @@
 {
-  "version": 1,
+  "version": 2,
   "status": "live",
-  "generatedAt": "2026-09-08T12:16:15.255Z",
+  "generatedAt": "2026-09-08T14:02:02.561Z",
   "country": {
     "id": "de",
     "code": "DE",
-    "imfCode": "DEU",
     "name": "Germany",
     "slug": "germany",
     "currency": "EUR",
@@ -15,15 +14,16 @@
     "dmoUrl": "https://www.deutsche-finanzagentur.de/en/"
   },
   "fiscal": {
-    "referenceYear": 2026,
-    "grossDebtPctGdp": 64.6,
-    "grossDebtUsdBn": 3522.5,
-    "nominalGdpUsdBn": 5452.9,
-    "fiscalBalancePctGdp": -3.8,
-    "realGrowthPct": 0.8,
-    "inflationPct": 2.7,
-    "nextYearDebtPctGdp": 66.5,
-    "nextYear": 2027
+    "referenceYear": 2025,
+    "debtDefinition": "General government consolidated gross debt (Maastricht debt), % of GDP",
+    "grossDebtPctGdp": 63.5,
+    "grossDebtUsdBn": 3207.3,
+    "nominalGdpUsdBn": 5050.9,
+    "fiscalBalancePctGdp": -2.7,
+    "realGrowthPct": 0.2,
+    "inflationPct": 2.2,
+    "nextYearDebtPctGdp": null,
+    "nextYear": null
   },
   "market": {
     "asOf": "2026-09-08",
@@ -32,9 +32,6 @@
     "y10": 3.45,
     "y30": 3.95,
     "curveSource": "https://raw.githubusercontent.com/Botapi33/bondstats-global-yield-curve-database/main/data/markets/de.json",
-    "fallbackFrequency": null,
-    "fallbackTier": null,
-    "fallbackSource": null,
     "s2s10": 46,
     "s5s30": 84
   },
@@ -53,10 +50,6 @@
   },
   "history": {
     "debtPctGdp": {
-      "1991": 39,
-      "1992": 41.4,
-      "1993": 45.1,
-      "1994": 47.5,
       "1995": 54.9,
       "1996": 57.7,
       "1997": 58.8,
@@ -87,19 +80,9 @@
       "2022": 64.4,
       "2023": 62.3,
       "2024": 62.2,
-      "2025": 62.9,
-      "2026": 64.6,
-      "2027": 66.5,
-      "2028": 68.4,
-      "2029": 70.2,
-      "2030": 72,
-      "2031": 73.7
+      "2025": 63.5
     },
     "fiscalBalancePctGdp": {
-      "1991": -3.2,
-      "1992": -2.6,
-      "1993": -3.1,
-      "1994": -2.5,
       "1995": -9.4,
       "1996": -3.6,
       "1997": -3,
@@ -130,23 +113,39 @@
       "2022": -1.9,
       "2023": -2.5,
       "2024": -2.7,
-      "2025": -2.7,
-      "2026": -3.8,
-      "2027": -4.2,
-      "2028": -4.1,
-      "2029": -3.9,
-      "2030": -3.8,
-      "2031": -3.7
+      "2025": -2.7
     }
+  },
+  "rights": {
+    "fiscal": {
+      "source": "Eurostat — Government deficit/surplus, debt and associated data (gov_10dd_edpt1)",
+      "licenseUrl": "https://ec.europa.eu/eurostat/help/copyright-notice"
+    },
+    "macro": {
+      "source": "World Bank World Development Indicators",
+      "licenseUrl": "https://datacatalog.worldbank.org/public-licenses"
+    },
+    "market": {
+      "source": "https://raw.githubusercontent.com/Botapi33/bondstats-global-yield-curve-database/main/data/markets/de.json",
+      "licenseUrl": null
+    },
+    "bondstatsNotice": "https://www.bondstats.org/data-license/"
   },
   "sources": [
     {
-      "name": "IMF World Economic Outlook / DataMapper",
-      "url": "https://www.imf.org/external/datamapper/api/v1/GGXWDG_NGDP/USA/JPN/ITA/DEU/FRA/GBR/CAN/AUS/ESP/NLD/CHE/BEL/AUT/PRT/GRC",
-      "status": "ok"
+      "name": "Eurostat — Government deficit/surplus, debt and associated data (gov_10dd_edpt1)",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10dd_edpt1?lang=en&freq=A&unit=PC_GDP&sector=S13&na_item=GD&geo=DE",
+      "status": "ok",
+      "rights": "https://ec.europa.eu/eurostat/help/copyright-notice"
     },
     {
-      "name": "BondStats Global Yield Curve Database",
+      "name": "World Bank World Development Indicators",
+      "url": "https://api.worldbank.org/v2/country/DE/indicator/NY.GDP.MKTP.CD?format=json&per_page=100&date=1990:2030",
+      "status": "ok",
+      "rights": "https://datacatalog.worldbank.org/public-licenses"
+    },
+    {
+      "name": "Sovereign yield source",
       "url": "https://raw.githubusercontent.com/Botapi33/bondstats-global-yield-curve-database/main/data/markets/de.json",
       "status": "ok"
     },

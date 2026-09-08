@@ -1,11 +1,10 @@
 {
-  "version": 1,
+  "version": 2,
   "status": "live",
-  "generatedAt": "2026-09-08T12:16:15.255Z",
+  "generatedAt": "2026-09-08T14:02:02.561Z",
   "country": {
     "id": "it",
     "code": "IT",
-    "imfCode": "ITA",
     "name": "Italy",
     "slug": "italy",
     "currency": "EUR",
@@ -15,26 +14,24 @@
     "dmoUrl": "https://www.dt.mef.gov.it/en/debito_pubblico/"
   },
   "fiscal": {
-    "referenceYear": 2026,
-    "grossDebtPctGdp": 138.4,
-    "grossDebtUsdBn": 3789.6,
-    "nominalGdpUsdBn": 2738.2,
-    "fiscalBalancePctGdp": -2.8,
+    "referenceYear": 2025,
+    "debtDefinition": "General government consolidated gross debt (Maastricht debt), % of GDP",
+    "grossDebtPctGdp": 137.1,
+    "grossDebtUsdBn": 3498.2,
+    "nominalGdpUsdBn": 2551.6,
+    "fiscalBalancePctGdp": -3.1,
     "realGrowthPct": 0.5,
-    "inflationPct": 2.6,
-    "nextYearDebtPctGdp": 138.8,
-    "nextYear": 2027
+    "inflationPct": 1.5,
+    "nextYearDebtPctGdp": null,
+    "nextYear": null
   },
   "market": {
-    "asOf": "2026-06-01",
+    "asOf": "2026-07",
     "y2": null,
     "y5": null,
-    "y10": 3.734,
+    "y10": 3.881,
     "y30": null,
-    "curveSource": "https://botapi33.github.io/bondstats-global-yields/global_yields.json",
-    "fallbackFrequency": "Monthly",
-    "fallbackTier": "monthly",
-    "fallbackSource": "fred",
+    "curveSource": "https://data-api.ecb.europa.eu/service/data/IRS/M.IT.L.L40.CI.0000.EUR.N.Z?format=csvdata",
     "s2s10": null,
     "s5s30": null
   },
@@ -53,13 +50,6 @@
   },
   "history": {
     "debtPctGdp": {
-      "1988": 95.7,
-      "1989": 98.4,
-      "1990": 101.7,
-      "1991": 105.3,
-      "1992": 113,
-      "1993": 124.1,
-      "1994": 130.8,
       "1995": 119.1,
       "1996": 118.9,
       "1997": 116.5,
@@ -90,22 +80,9 @@
       "2022": 138.4,
       "2023": 133.9,
       "2024": 134.7,
-      "2025": 137.1,
-      "2026": 138.4,
-      "2027": 138.8,
-      "2028": 137.6,
-      "2029": 137.1,
-      "2030": 136.5,
-      "2031": 136.1
+      "2025": 137.1
     },
     "fiscalBalancePctGdp": {
-      "1988": -10.6,
-      "1989": -10.9,
-      "1990": -11.1,
-      "1991": -11.1,
-      "1992": -10.1,
-      "1993": -9.8,
-      "1994": -8.8,
       "1995": -7.2,
       "1996": -6.6,
       "1997": -3,
@@ -136,24 +113,40 @@
       "2022": -8.1,
       "2023": -7.1,
       "2024": -3.4,
-      "2025": -3.1,
-      "2026": -2.8,
-      "2027": -2.6,
-      "2028": -2.4,
-      "2029": -2.5,
-      "2030": -2.5,
-      "2031": -2.7
+      "2025": -3.1
     }
+  },
+  "rights": {
+    "fiscal": {
+      "source": "Eurostat — Government deficit/surplus, debt and associated data (gov_10dd_edpt1)",
+      "licenseUrl": "https://ec.europa.eu/eurostat/help/copyright-notice"
+    },
+    "macro": {
+      "source": "World Bank World Development Indicators",
+      "licenseUrl": "https://datacatalog.worldbank.org/public-licenses"
+    },
+    "market": {
+      "source": "https://data-api.ecb.europa.eu/service/data/IRS/M.IT.L.L40.CI.0000.EUR.N.Z?format=csvdata",
+      "licenseUrl": "https://www.ecb.europa.eu/stats/ecb_statistics/governance_and_quality_framework/html/usage_policy.en.html"
+    },
+    "bondstatsNotice": "https://www.bondstats.org/data-license/"
   },
   "sources": [
     {
-      "name": "IMF World Economic Outlook / DataMapper",
-      "url": "https://www.imf.org/external/datamapper/api/v1/GGXWDG_NGDP/USA/JPN/ITA/DEU/FRA/GBR/CAN/AUS/ESP/NLD/CHE/BEL/AUT/PRT/GRC",
-      "status": "ok"
+      "name": "Eurostat — Government deficit/surplus, debt and associated data (gov_10dd_edpt1)",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10dd_edpt1?lang=en&freq=A&unit=PC_GDP&sector=S13&na_item=GD&geo=IT",
+      "status": "ok",
+      "rights": "https://ec.europa.eu/eurostat/help/copyright-notice"
     },
     {
-      "name": "BondStats Global Yield Curve Database",
-      "url": "https://botapi33.github.io/bondstats-global-yields/global_yields.json",
+      "name": "World Bank World Development Indicators",
+      "url": "https://api.worldbank.org/v2/country/IT/indicator/NY.GDP.MKTP.CD?format=json&per_page=100&date=1990:2030",
+      "status": "ok",
+      "rights": "https://datacatalog.worldbank.org/public-licenses"
+    },
+    {
+      "name": "Sovereign yield source",
+      "url": "https://data-api.ecb.europa.eu/service/data/IRS/M.IT.L.L40.CI.0000.EUR.N.Z?format=csvdata",
       "status": "ok"
     },
     {

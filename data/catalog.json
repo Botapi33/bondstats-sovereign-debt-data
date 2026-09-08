@@ -1,7 +1,7 @@
 {
-  "version": 1,
-  "status": "live",
-  "generatedAt": "2026-09-08T12:16:15.255Z",
+  "version": 2,
+  "status": "partial",
+  "generatedAt": "2026-09-08T14:02:02.561Z",
   "countryCount": 15,
   "countries": [
     {
@@ -10,9 +10,10 @@
       "name": "United States",
       "slug": "united-states",
       "status": "live",
-      "referenceYear": 2026,
-      "grossDebtPctGdp": 125.8,
-      "y10": 4.77
+      "referenceYear": 2025,
+      "grossDebtPctGdp": 0,
+      "y10": 4.77,
+      "debtDefinition": "Central government debt, total, % of GDP"
     },
     {
       "id": "jp",
@@ -20,9 +21,10 @@
       "name": "Japan",
       "slug": "japan",
       "status": "live",
-      "referenceYear": 2026,
-      "grossDebtPctGdp": 204.4,
-      "y10": 2.935
+      "referenceYear": 2025,
+      "grossDebtPctGdp": 0,
+      "y10": 2.935,
+      "debtDefinition": "Central government debt, total, % of GDP"
     },
     {
       "id": "it",
@@ -30,9 +32,10 @@
       "name": "Italy",
       "slug": "italy",
       "status": "live",
-      "referenceYear": 2026,
-      "grossDebtPctGdp": 138.4,
-      "y10": 3.734
+      "referenceYear": 2025,
+      "grossDebtPctGdp": 137.1,
+      "y10": 3.881,
+      "debtDefinition": "General government consolidated gross debt (Maastricht debt), % of GDP"
     },
     {
       "id": "de",
@@ -40,9 +43,10 @@
       "name": "Germany",
       "slug": "germany",
       "status": "live",
-      "referenceYear": 2026,
-      "grossDebtPctGdp": 64.6,
-      "y10": 3.45
+      "referenceYear": 2025,
+      "grossDebtPctGdp": 63.5,
+      "y10": 3.45,
+      "debtDefinition": "General government consolidated gross debt (Maastricht debt), % of GDP"
     },
     {
       "id": "fr",
@@ -50,19 +54,21 @@
       "name": "France",
       "slug": "france",
       "status": "live",
-      "referenceYear": 2026,
-      "grossDebtPctGdp": 118.4,
-      "y10": 4.251
+      "referenceYear": 2025,
+      "grossDebtPctGdp": 115.6,
+      "y10": 3.85,
+      "debtDefinition": "General government consolidated gross debt (Maastricht debt), % of GDP"
     },
     {
       "id": "gb",
       "code": "UK",
       "name": "United Kingdom",
       "slug": "united-kingdom",
-      "status": "live",
-      "referenceYear": 2026,
-      "grossDebtPctGdp": 103.6,
-      "y10": 5.074
+      "status": "error",
+      "referenceYear": null,
+      "grossDebtPctGdp": null,
+      "y10": null,
+      "lastError": "No recent rights-cleared debt observation"
     },
     {
       "id": "ca",
@@ -70,9 +76,10 @@
       "name": "Canada",
       "slug": "canada",
       "status": "live",
-      "referenceYear": 2026,
-      "grossDebtPctGdp": 110.7,
-      "y10": 3.42
+      "referenceYear": 2025,
+      "grossDebtPctGdp": 0,
+      "y10": null,
+      "debtDefinition": "Central government debt, total, % of GDP"
     },
     {
       "id": "au",
@@ -80,9 +87,10 @@
       "name": "Australia",
       "slug": "australia",
       "status": "live",
-      "referenceYear": 2026,
-      "grossDebtPctGdp": 50.6,
-      "y10": 5.22
+      "referenceYear": 2025,
+      "grossDebtPctGdp": 0,
+      "y10": 5.22,
+      "debtDefinition": "Central government debt, total, % of GDP"
     },
     {
       "id": "es",
@@ -90,9 +98,10 @@
       "name": "Spain",
       "slug": "spain",
       "status": "live",
-      "referenceYear": 2026,
-      "grossDebtPctGdp": 98.2,
-      "y10": 3.421
+      "referenceYear": 2025,
+      "grossDebtPctGdp": 100.7,
+      "y10": 3.53,
+      "debtDefinition": "General government consolidated gross debt (Maastricht debt), % of GDP"
     },
     {
       "id": "nl",
@@ -100,9 +109,10 @@
       "name": "Netherlands",
       "slug": "netherlands",
       "status": "live",
-      "referenceYear": 2026,
-      "grossDebtPctGdp": 44.1,
-      "y10": 3.466
+      "referenceYear": 2025,
+      "grossDebtPctGdp": 44.4,
+      "y10": 3.195,
+      "debtDefinition": "General government consolidated gross debt (Maastricht debt), % of GDP"
     },
     {
       "id": "ch",
@@ -110,9 +120,10 @@
       "name": "Switzerland",
       "slug": "switzerland",
       "status": "live",
-      "referenceYear": 2026,
-      "grossDebtPctGdp": 38.5,
-      "y10": 0.31
+      "referenceYear": 2025,
+      "grossDebtPctGdp": 0,
+      "y10": null,
+      "debtDefinition": "Central government debt, total, % of GDP"
     },
     {
       "id": "be",
@@ -120,9 +131,10 @@
       "name": "Belgium",
       "slug": "belgium",
       "status": "live",
-      "referenceYear": 2026,
-      "grossDebtPctGdp": 109.2,
-      "y10": 3.51
+      "referenceYear": 2025,
+      "grossDebtPctGdp": 107.9,
+      "y10": 3.64,
+      "debtDefinition": "General government consolidated gross debt (Maastricht debt), % of GDP"
     },
     {
       "id": "at",
@@ -130,9 +142,10 @@
       "name": "Austria",
       "slug": "austria",
       "status": "live",
-      "referenceYear": 2026,
-      "grossDebtPctGdp": 82.1,
-      "y10": 3.207
+      "referenceYear": 2025,
+      "grossDebtPctGdp": 81.5,
+      "y10": 3.324,
+      "debtDefinition": "General government consolidated gross debt (Maastricht debt), % of GDP"
     },
     {
       "id": "pt",
@@ -140,19 +153,21 @@
       "name": "Portugal",
       "slug": "portugal",
       "status": "live",
-      "referenceYear": 2026,
-      "grossDebtPctGdp": 85.6,
-      "y10": 3.33
+      "referenceYear": 2025,
+      "grossDebtPctGdp": 89.7,
+      "y10": 3.443,
+      "debtDefinition": "General government consolidated gross debt (Maastricht debt), % of GDP"
     },
     {
       "id": "gr",
       "code": "GR",
       "name": "Greece",
       "slug": "greece",
-      "status": "live",
-      "referenceYear": 2026,
-      "grossDebtPctGdp": 136.9,
-      "y10": 3.65
+      "status": "error",
+      "referenceYear": null,
+      "grossDebtPctGdp": null,
+      "y10": null,
+      "lastError": "HTTP 404"
     }
   ]
 }
