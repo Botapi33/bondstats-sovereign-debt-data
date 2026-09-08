@@ -28,15 +28,15 @@ The GitHub Action refreshes the core comparable fields:
 
 ## Sources
 
-Core fiscal data:
-- IMF World Economic Outlook through the public DataMapper API
+Rights-safe V2 source policy:
 
-Bond-market data:
-- BondStats Global Yield Curve Database where a live curve adapter exists
-- BondStats global_yields.json as a fallback for additional sovereigns
+- Euro-area sovereign debt and fiscal balance: Eurostat `gov_10dd_edpt1`
+- Non-euro sovereign debt: World Bank World Development Indicators
+- GDP, growth and CPI inflation: World Bank World Development Indicators
+- Euro sovereign long-term yields where no Curve Atlas market exists: ECB IRS
+- Sovereign curves where available: BondStats Global Yield Curve Database using direct official-source adapters
 
-Debt-management context:
-- each national debt-management office / finance ministry is stored in the country configuration.
+Direct IMF DataMapper automation and the generic `global_yields.json` fallback are removed from this version.
 
 ## API keys
 

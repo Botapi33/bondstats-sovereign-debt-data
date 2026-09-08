@@ -1,23 +1,19 @@
-# Sovereign Debt Profile Methodology
+# Sovereign Debt Profile Methodology — Rights-Safe V2
 
-## Comparable fiscal core
+Euro-area profiles use Eurostat general-government consolidated gross debt
+(Maastricht debt), expressed as a percentage of GDP.
 
-BondStats uses IMF WEO general-government gross debt as the comparable cross-country headline debt measure. The same definition is used across the 15-country profile set where available.
+Non-euro profiles use the World Bank indicator `GC.DOD.TOTL.GD.ZS`:
+Central government debt, total (% of GDP).
 
-Estimated debt stock in USD is calculated as:
+GDP, real growth and CPI inflation come from World Bank WDI.
 
-`nominal GDP in USD billions × gross debt % GDP / 100`
+Yield data prefers BondStats Curve Atlas files built from direct official-source
+adapters. Euro-area sovereigns without a dedicated Curve Atlas adapter use ECB
+long-term interest-rate statistics for convergence purposes.
 
-It is therefore an analytical conversion of the IMF ratio and GDP series, not a replacement for the issuer's legal debt-stock measure.
+Because the debt concept is not identical across all 15 countries, every JSON
+file contains `fiscal.debtDefinition`. The site must show this field.
 
-## Market yields
-
-Where possible, live yields are taken from the BondStats Global Yield Curve Database. Other markets can fall back to the BondStats global-yields dataset.
-
-## Maturity structure
-
-National debt-management offices publish maturity data with different definitions, dates and formats. BondStats keeps those values as explicit curated overrides instead of synthesizing a false cross-country standard.
-
-## Ratings
-
-Agency ratings remain a manually curated layer. The automated updater does not scrape S&P Global Ratings, Moody's Ratings or Fitch Ratings.
+Ratings and heterogeneous national-DMO maturity statistics remain manual curated
+fields. BondStats does not automatically scrape rating agencies.

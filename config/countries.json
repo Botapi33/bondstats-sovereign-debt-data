@@ -19,7 +19,8 @@
       "Interest expense as legacy debt refinances at current market rates",
       "Foreign and domestic demand for duration",
       "Federal Reserve policy and changes in term premium"
-    ]
+    ],
+    "eurostatGeo": null
   },
   {
     "id": "jp",
@@ -41,7 +42,8 @@
       "The pace at which higher yields enter government interest costs",
       "Domestic institutional demand for long-duration JGBs",
       "Curve behavior as price discovery returns after yield-curve control"
-    ]
+    ],
+    "eurostatGeo": null
   },
   {
     "id": "it",
@@ -63,7 +65,8 @@
       "Gross refinancing needs and the maturity profile",
       "Primary balance and the debt-to-GDP trajectory",
       "ECB policy, reinvestment and transmission tools"
-    ]
+    ],
+    "eurostatGeo": "IT"
   },
   {
     "id": "de",
@@ -85,7 +88,8 @@
       "Bund scarcity versus rising fiscal funding needs",
       "ECB policy expectations and euro-area term premium",
       "Relative value against higher-spread euro-area sovereigns"
-    ]
+    ],
+    "eurostatGeo": "DE"
   },
   {
     "id": "fr",
@@ -107,7 +111,8 @@
       "Annual funding requirement and auction absorption",
       "Interest-cost sensitivity as older debt matures",
       "ECB policy and changes in euro-area sovereign risk premia"
-    ]
+    ],
+    "eurostatGeo": "FR"
   },
   {
     "id": "gb",
@@ -129,7 +134,8 @@
       "Inflation compensation and index-linked debt costs",
       "Long-end demand from pensions and insurers",
       "Fiscal announcements and changes in the term premium"
-    ]
+    ],
+    "eurostatGeo": null
   },
   {
     "id": "ca",
@@ -151,7 +157,8 @@
       "Federal borrowing requirements and issuance mix",
       "Canada–U.S. yield differentials",
       "Inflation and the pace of debt-service repricing"
-    ]
+    ],
+    "eurostatGeo": null
   },
   {
     "id": "au",
@@ -173,7 +180,8 @@
       "AOFM issuance and benchmark liquidity",
       "Global duration spillovers, especially from U.S. Treasuries",
       "Demand from domestic banks and institutional investors"
-    ]
+    ],
+    "eurostatGeo": null
   },
   {
     "id": "es",
@@ -195,7 +203,8 @@
       "Debt reduction versus nominal GDP growth",
       "Annual redemption and issuance requirements",
       "ECB policy and changes in peripheral spread risk"
-    ]
+    ],
+    "eurostatGeo": "ES"
   },
   {
     "id": "nl",
@@ -217,7 +226,8 @@
       "Relative value to Bunds and French OATs",
       "ECB policy and high-quality collateral demand",
       "Fiscal policy as the debt ratio remains comparatively low"
-    ]
+    ],
+    "eurostatGeo": "NL"
   },
   {
     "id": "ch",
@@ -239,7 +249,8 @@
       "Scarcity of Confederation bond supply",
       "Inflation and the neutral-rate debate in Switzerland",
       "Cross-market spread moves versus Bunds"
-    ]
+    ],
+    "eurostatGeo": null
   },
   {
     "id": "be",
@@ -261,7 +272,8 @@
       "OLO spread to Germany and France",
       "Long average maturity as a refinancing buffer",
       "ECB policy and euro-area risk sentiment"
-    ]
+    ],
+    "eurostatGeo": "BE"
   },
   {
     "id": "at",
@@ -283,7 +295,8 @@
       "Spread behavior versus Germany and the Netherlands",
       "Fiscal trajectory and contingent liabilities",
       "ECB policy and euro-area term premium"
-    ]
+    ],
+    "eurostatGeo": "AT"
   },
   {
     "id": "pt",
@@ -305,7 +318,8 @@
       "Portugal–Germany spread and peripheral relative value",
       "Refinancing calendar and cash-buffer management",
       "ECB policy and investor demand for spread product"
-    ]
+    ],
+    "eurostatGeo": "PT"
   },
   {
     "id": "gr",
@@ -327,6 +341,7 @@
       "GGB spread compression or widening versus core markets",
       "Primary balance and continued debt-ratio decline",
       "ECB policy, reinvestment and market-access conditions"
-    ]
+    ],
+    "eurostatGeo": "EL"
   }
 ]
