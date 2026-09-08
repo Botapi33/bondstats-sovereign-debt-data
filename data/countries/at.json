@@ -1,7 +1,7 @@
 {
   "version": 1,
   "status": "live",
-  "generatedAt": "2026-09-08T00:48:13.390Z",
+  "generatedAt": "2026-09-08T01:00:47.542Z",
   "country": {
     "id": "at",
     "code": "AT",
@@ -26,12 +26,15 @@
     "nextYear": 2027
   },
   "market": {
-    "asOf": null,
+    "asOf": "2026-06-01",
     "y2": null,
     "y5": null,
-    "y10": null,
+    "y10": 3.207,
     "y30": null,
-    "curveSource": null,
+    "curveSource": "https://botapi33.github.io/bondstats-global-yields/global_yields.json",
+    "fallbackFrequency": "Monthly",
+    "fallbackTier": "monthly",
+    "fallbackSource": "fred",
     "s2s10": null,
     "s5s30": null
   },
@@ -150,8 +153,8 @@
     },
     {
       "name": "BondStats Global Yield Curve Database",
-      "url": null,
-      "status": "unavailable"
+      "url": "https://botapi33.github.io/bondstats-global-yields/global_yields.json",
+      "status": "ok"
     },
     {
       "name": "Austrian Federal Financing Agency",

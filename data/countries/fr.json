@@ -1,7 +1,7 @@
 {
   "version": 1,
   "status": "live",
-  "generatedAt": "2026-09-08T00:48:13.390Z",
+  "generatedAt": "2026-09-08T01:00:47.542Z",
   "country": {
     "id": "fr",
     "code": "FR",
@@ -26,12 +26,15 @@
     "nextYear": 2027
   },
   "market": {
-    "asOf": null,
+    "asOf": "2026-09-04",
     "y2": null,
     "y5": null,
-    "y10": null,
+    "y10": 4.189,
     "y30": null,
-    "curveSource": null,
+    "curveSource": "https://botapi33.github.io/bondstats-global-yields/global_yields.json",
+    "fallbackFrequency": "Daily",
+    "fallbackTier": "delayed",
+    "fallbackSource": "riksbank",
     "s2s10": null,
     "s5s30": null
   },
@@ -166,8 +169,8 @@
     },
     {
       "name": "BondStats Global Yield Curve Database",
-      "url": null,
-      "status": "unavailable"
+      "url": "https://botapi33.github.io/bondstats-global-yields/global_yields.json",
+      "status": "ok"
     },
     {
       "name": "Agence France Trésor",

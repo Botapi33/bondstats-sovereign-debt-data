@@ -1,7 +1,7 @@
 {
   "version": 1,
   "status": "live",
-  "generatedAt": "2026-09-08T00:48:13.390Z",
+  "generatedAt": "2026-09-08T01:00:47.542Z",
   "country": {
     "id": "de",
     "code": "DE",
@@ -32,6 +32,9 @@
     "y10": 3.41,
     "y30": 3.93,
     "curveSource": "https://raw.githubusercontent.com/Botapi33/bondstats-global-yield-curve-database/main/data/markets/de.json",
+    "fallbackFrequency": null,
+    "fallbackTier": null,
+    "fallbackSource": null,
     "s2s10": 47,
     "s5s30": 87
   },

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "status": "live",
-  "generatedAt": "2026-09-08T00:48:13.390Z",
+  "generatedAt": "2026-09-08T01:00:47.542Z",
   "countryCount": 15,
   "countries": [
     {
@@ -32,7 +32,7 @@
       "status": "live",
       "referenceYear": 2026,
       "grossDebtPctGdp": 138.4,
-      "y10": null
+      "y10": 3.734
     },
     {
       "id": "de",
@@ -52,7 +52,7 @@
       "status": "live",
       "referenceYear": 2026,
       "grossDebtPctGdp": 118.4,
-      "y10": null
+      "y10": 4.189
     },
     {
       "id": "gb",
@@ -72,7 +72,7 @@
       "status": "live",
       "referenceYear": 2026,
       "grossDebtPctGdp": 110.7,
-      "y10": null
+      "y10": 3.42
     },
     {
       "id": "au",
@@ -92,7 +92,7 @@
       "status": "live",
       "referenceYear": 2026,
       "grossDebtPctGdp": 98.2,
-      "y10": null
+      "y10": 3.421
     },
     {
       "id": "nl",
@@ -102,7 +102,7 @@
       "status": "live",
       "referenceYear": 2026,
       "grossDebtPctGdp": 44.1,
-      "y10": null
+      "y10": 3.424
     },
     {
       "id": "ch",
@@ -112,7 +112,7 @@
       "status": "live",
       "referenceYear": 2026,
       "grossDebtPctGdp": 38.5,
-      "y10": null
+      "y10": 0.31
     },
     {
       "id": "be",
@@ -122,7 +122,7 @@
       "status": "live",
       "referenceYear": 2026,
       "grossDebtPctGdp": 109.2,
-      "y10": null
+      "y10": 3.51
     },
     {
       "id": "at",
@@ -132,7 +132,7 @@
       "status": "live",
       "referenceYear": 2026,
       "grossDebtPctGdp": 82.1,
-      "y10": null
+      "y10": 3.207
     },
     {
       "id": "pt",
@@ -142,7 +142,7 @@
       "status": "live",
       "referenceYear": 2026,
       "grossDebtPctGdp": 85.6,
-      "y10": null
+      "y10": 3.33
     },
     {
       "id": "gr",
@@ -152,7 +152,7 @@
       "status": "live",
       "referenceYear": 2026,
       "grossDebtPctGdp": 136.9,
-      "y10": null
+      "y10": 3.65
     }
   ]
 }
