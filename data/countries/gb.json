@@ -1,7 +1,7 @@
 {
   "version": 1,
   "status": "live",
-  "generatedAt": "2026-09-08T01:00:47.542Z",
+  "generatedAt": "2026-09-08T12:16:15.255Z",
   "country": {
     "id": "gb",
     "code": "UK",
@@ -26,10 +26,10 @@
     "nextYear": 2027
   },
   "market": {
-    "asOf": "2026-09-03",
+    "asOf": "2026-09-04",
     "y2": null,
-    "y5": 4.609,
-    "y10": 5.084,
+    "y5": 4.608,
+    "y10": 5.074,
     "y30": null,
     "curveSource": "https://raw.githubusercontent.com/Botapi33/bondstats-global-yield-curve-database/main/data/markets/uk.json",
     "fallbackFrequency": null,

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "status": "live",
-  "generatedAt": "2026-09-08T01:00:47.542Z",
+  "generatedAt": "2026-09-08T12:16:15.255Z",
   "countryCount": 15,
   "countries": [
     {
@@ -22,7 +22,7 @@
       "status": "live",
       "referenceYear": 2026,
       "grossDebtPctGdp": 204.4,
-      "y10": 2.91
+      "y10": 2.935
     },
     {
       "id": "it",
@@ -42,7 +42,7 @@
       "status": "live",
       "referenceYear": 2026,
       "grossDebtPctGdp": 64.6,
-      "y10": 3.41
+      "y10": 3.45
     },
     {
       "id": "fr",
@@ -52,7 +52,7 @@
       "status": "live",
       "referenceYear": 2026,
       "grossDebtPctGdp": 118.4,
-      "y10": 4.189
+      "y10": 4.251
     },
     {
       "id": "gb",
@@ -62,7 +62,7 @@
       "status": "live",
       "referenceYear": 2026,
       "grossDebtPctGdp": 103.6,
-      "y10": 5.084
+      "y10": 5.074
     },
     {
       "id": "ca",
@@ -102,7 +102,7 @@
       "status": "live",
       "referenceYear": 2026,
       "grossDebtPctGdp": 44.1,
-      "y10": 3.424
+      "y10": 3.466
     },
     {
       "id": "ch",

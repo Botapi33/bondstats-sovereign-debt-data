@@ -1,7 +1,7 @@
 {
   "version": 1,
   "status": "live",
-  "generatedAt": "2026-09-08T01:00:47.542Z",
+  "generatedAt": "2026-09-08T12:16:15.255Z",
   "country": {
     "id": "nl",
     "code": "NL",
@@ -26,14 +26,14 @@
     "nextYear": 2027
   },
   "market": {
-    "asOf": "2026-09-04",
+    "asOf": "2026-09-07",
     "y2": null,
     "y5": null,
-    "y10": 3.424,
+    "y10": 3.466,
     "y30": null,
     "curveSource": "https://botapi33.github.io/bondstats-global-yields/global_yields.json",
     "fallbackFrequency": "Daily",
-    "fallbackTier": "delayed",
+    "fallbackTier": "daily",
     "fallbackSource": "riksbank",
     "s2s10": null,
     "s5s30": null
