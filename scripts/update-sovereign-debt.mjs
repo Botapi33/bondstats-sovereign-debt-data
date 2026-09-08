@@ -142,13 +142,72 @@ function numericFromObject(obj, patterns){
 }
 
 function extractGlobalYield(root,country){
+  // BondStats global_yields.json is a 10Y country snapshot with the shape:
+  // { countries: { italy: { value: 3.734, date: 'YYYY-MM-DD', ... } } }
+  //
+  // The previous generic parser found the country node, but then searched
+  // inside it for keys such as "10Y". Since the yield itself is stored in
+  // the node's "value" field, countries without a separate Curve Atlas feed
+  // incorrectly ended up with a null 10Y yield.
+
+  const countries=root?.countries;
+  if(countries && typeof countries==='object' && !Array.isArray(countries)){
+    const directKeys=[
+      String(country.slug||'').replace(/-/g,'_').toLowerCase(),
+      String(country.name||'').toLowerCase().replace(/[^a-z0-9]+/g,'_').replace(/^_+|_+$/g,''),
+      String(country.id||'').toLowerCase(),
+      String(country.code||'').toLowerCase(),
+      String(country.imf||'').toLowerCase()
+    ].filter(Boolean);
+
+    let node=null;
+
+    for(const key of directKeys){
+      if(countries[key] && typeof countries[key]==='object'){
+        node=countries[key];
+        break;
+      }
+    }
+
+    if(!node){
+      const aliases=[
+        country.id,country.code,country.imf,country.name,country.slug
+      ].map(normalizeKey).filter(Boolean);
+
+      node=Object.values(countries).find(item=>{
+        if(!item || typeof item!=='object') return false;
+        const label=normalizeKey(item.label || item.name || item.country || '');
+        return aliases.includes(label);
+      }) || null;
+    }
+
+    if(node){
+      const tenYear=Number(node.value);
+      return {
+        y2:null,
+        y5:null,
+        y10:Number.isFinite(tenYear) ? tenYear : numericFromObject(node,['10y','10year','10yr']),
+        y30:null,
+        asOf:node.date || null,
+        frequency:node.frequency || null,
+        source:node.source || null,
+        tier:node.tier || null,
+        isFallback:Boolean(node.isFallback)
+      };
+    }
+  }
+
+  // Defensive fallback for any future/alternate data shape.
   const node=findCountryNode(root,country);
   if(!node) return {};
+
+  const directValue=Number(node.value);
   return {
     y2:numericFromObject(node,['2y','2year','2yr']),
     y5:numericFromObject(node,['5y','5year','5yr']),
-    y10:numericFromObject(node,['10y','10year','10yr']),
-    y30:numericFromObject(node,['30y','30year','30yr'])
+    y10:Number.isFinite(directValue) ? directValue : numericFromObject(node,['10y','10year','10yr']),
+    y30:numericFromObject(node,['30y','30year','30yr']),
+    asOf:node.date || null
   };
 }
 
@@ -235,13 +294,17 @@ async function main(){
 
       const curve=await fetchCurve(country);
       const fallback=globalYields ? extractGlobalYield(globalYields,country) : {};
+      const hasFallbackYield=[fallback.y2,fallback.y5,fallback.y10,fallback.y30].some(v=>v!=null);
       const market={
-        asOf:curve?.asOf || null,
+        asOf:curve?.asOf || fallback.asOf || null,
         y2:round(curve?.y2 ?? fallback.y2,3),
         y5:round(curve?.y5 ?? fallback.y5,3),
         y10:round(curve?.y10 ?? fallback.y10,3),
         y30:round(curve?.y30 ?? fallback.y30,3),
-        curveSource:curve?.source || (Object.values(fallback).some(v=>v!=null)?GLOBAL_YIELDS:null)
+        curveSource:curve?.source || (hasFallbackYield?GLOBAL_YIELDS:null),
+        fallbackFrequency:curve?.source ? null : (fallback.frequency || null),
+        fallbackTier:curve?.source ? null : (fallback.tier || null),
+        fallbackSource:curve?.source ? null : (fallback.source || null)
       };
       market.s2s10 = market.y2!=null && market.y10!=null ? round((market.y10-market.y2)*100,1) : null;
       market.s5s30 = market.y5!=null && market.y30!=null ? round((market.y30-market.y5)*100,1) : null;
