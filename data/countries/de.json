@@ -1,7 +1,7 @@
 {
   "version": 2,
   "status": "live",
-  "generatedAt": "2026-09-25T22:44:12.136Z",
+  "generatedAt": "2026-09-28T15:50:50.697Z",
   "country": {
     "id": "de",
     "code": "DE",
@@ -26,13 +26,13 @@
     "nextYear": null
   },
   "market": {
-    "asOf": "2026-09-25",
-    "y2": 3.28,
-    "y5": 3.38,
-    "y10": 3.63,
-    "y30": 3.95,
+    "asOf": "2026-09-28",
+    "y2": 3.32,
+    "y5": 3.44,
+    "y10": 3.69,
+    "y30": 4.01,
     "curveSource": "https://raw.githubusercontent.com/Botapi33/bondstats-global-yield-curve-database/main/data/markets/de.json",
-    "s2s10": 35,
+    "s2s10": 37,
     "s5s30": 57
   },
   "ratings": {
