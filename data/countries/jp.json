@@ -1,7 +1,7 @@
 {
   "version": 2,
   "status": "live",
-  "generatedAt": "2026-10-02T23:12:25.687Z",
+  "generatedAt": "2026-10-05T16:20:35.069Z",
   "country": {
     "id": "jp",
     "code": "JP",
@@ -26,14 +26,14 @@
     "nextYear": null
   },
   "market": {
-    "asOf": "2026-10-01",
-    "y2": 1.939,
-    "y5": 2.407,
-    "y10": 3.092,
-    "y30": 4.122,
+    "asOf": "2026-10-02",
+    "y2": 1.919,
+    "y5": 2.397,
+    "y10": 3.097,
+    "y30": 4.148,
     "curveSource": "https://raw.githubusercontent.com/Botapi33/bondstats-global-yield-curve-database/main/data/markets/jp.json",
-    "s2s10": 115.3,
-    "s5s30": 171.5
+    "s2s10": 117.8,
+    "s5s30": 175.1
   },
   "ratings": {
     "sp": null,
