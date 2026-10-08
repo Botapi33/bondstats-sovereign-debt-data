@@ -1,7 +1,7 @@
 {
   "version": 2,
   "status": "live",
-  "generatedAt": "2026-10-08T14:52:04.288Z",
+  "generatedAt": "2026-10-08T23:54:47.662Z",
   "country": {
     "id": "nl",
     "code": "NL",
@@ -21,7 +21,7 @@
     "nominalGdpUsdBn": 1332.8,
     "fiscalBalancePctGdp": -1.6,
     "realGrowthPct": 1.8,
-    "inflationPct": 3.3,
+    "inflationPct": 3.2,
     "nextYearDebtPctGdp": null,
     "nextYear": null
   },
