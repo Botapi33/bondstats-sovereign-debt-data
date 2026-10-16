@@ -1,7 +1,7 @@
 {
   "version": 2,
   "status": "live",
-  "generatedAt": "2026-10-15T22:38:42.615Z",
+  "generatedAt": "2026-10-16T12:41:16.058Z",
   "country": {
     "id": "au",
     "code": "AU",
@@ -26,13 +26,13 @@
     "nextYear": null
   },
   "market": {
-    "asOf": "2026-10-07",
-    "y2": 4.94,
-    "y5": 5.014,
-    "y10": 5.404,
+    "asOf": "2026-10-14",
+    "y2": 4.919,
+    "y5": 4.976,
+    "y10": 5.314,
     "y30": null,
     "curveSource": "https://raw.githubusercontent.com/Botapi33/bondstats-global-yield-curve-database/main/data/markets/au.json",
-    "s2s10": 46.4,
+    "s2s10": 39.5,
     "s5s30": null
   },
   "ratings": {
