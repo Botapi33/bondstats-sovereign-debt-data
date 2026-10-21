@@ -1,7 +1,7 @@
 {
   "version": 2,
   "status": "live",
-  "generatedAt": "2026-10-20T22:35:02.436Z",
+  "generatedAt": "2026-10-21T13:09:22.053Z",
   "country": {
     "id": "pt",
     "code": "PT",
@@ -16,8 +16,8 @@
   "fiscal": {
     "referenceYear": 2025,
     "debtDefinition": "General government consolidated gross debt (Maastricht debt), % of GDP",
-    "grossDebtPctGdp": 89.7,
-    "grossDebtUsdBn": 310.9,
+    "grossDebtPctGdp": 89.2,
+    "grossDebtUsdBn": 309.2,
     "nominalGdpUsdBn": 346.6,
     "fiscalBalancePctGdp": 0.7,
     "realGrowthPct": 1.9,
@@ -79,8 +79,8 @@
       "2021": 123.9,
       "2022": 111.2,
       "2023": 96.9,
-      "2024": 93.5,
-      "2025": 89.7
+      "2024": 93,
+      "2025": 89.2
     },
     "fiscalBalancePctGdp": {
       "1995": -5.2,
@@ -112,7 +112,7 @@
       "2021": -2.8,
       "2022": -0.3,
       "2023": 1.1,
-      "2024": 0.6,
+      "2024": 0.7,
       "2025": 0.7
     }
   },
