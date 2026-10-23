@@ -1,7 +1,7 @@
 {
   "version": 2,
   "status": "error",
-  "generatedAt": "2026-10-23T12:49:34.311Z",
+  "generatedAt": "2026-10-23T22:34:01.486Z",
   "country": {
     "id": "gr",
     "code": "GR",
@@ -32,5 +32,5 @@
   "rights": {
     "bondstatsNotice": "https://www.bondstats.org/data-license/"
   },
-  "lastError": "HTTP 404"
+  "lastError": "fetch failed"
 }

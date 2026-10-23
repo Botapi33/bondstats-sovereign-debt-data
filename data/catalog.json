@@ -1,7 +1,7 @@
 {
   "version": 2,
   "status": "partial",
-  "generatedAt": "2026-10-23T12:49:34.311Z",
+  "generatedAt": "2026-10-23T22:34:01.486Z",
   "countryCount": 15,
   "countries": [
     {
@@ -167,7 +167,7 @@
       "referenceYear": null,
       "grossDebtPctGdp": null,
       "y10": null,
-      "lastError": "HTTP 404"
+      "lastError": "fetch failed"
     }
   ]
 }
