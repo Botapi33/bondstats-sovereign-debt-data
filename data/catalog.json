@@ -1,7 +1,7 @@
 {
   "version": 2,
   "status": "partial",
-  "generatedAt": "2026-11-03T01:45:02.139Z",
+  "generatedAt": "2026-11-03T15:26:41.764Z",
   "countryCount": 15,
   "countries": [
     {
@@ -42,11 +42,11 @@
       "code": "DE",
       "name": "Germany",
       "slug": "germany",
-      "status": "live",
-      "referenceYear": 2025,
-      "grossDebtPctGdp": 62.8,
-      "y10": 3.37,
-      "debtDefinition": "General government consolidated gross debt (Maastricht debt), % of GDP"
+      "status": "error",
+      "referenceYear": null,
+      "grossDebtPctGdp": null,
+      "y10": null,
+      "lastError": "This operation was aborted"
     },
     {
       "id": "fr",
@@ -108,11 +108,11 @@
       "code": "NL",
       "name": "Netherlands",
       "slug": "netherlands",
-      "status": "live",
-      "referenceYear": 2025,
-      "grossDebtPctGdp": 44.7,
-      "y10": 3.564,
-      "debtDefinition": "General government consolidated gross debt (Maastricht debt), % of GDP"
+      "status": "error",
+      "referenceYear": null,
+      "grossDebtPctGdp": null,
+      "y10": null,
+      "lastError": "HTTP 500"
     },
     {
       "id": "ch",
@@ -152,11 +152,11 @@
       "code": "PT",
       "name": "Portugal",
       "slug": "portugal",
-      "status": "live",
-      "referenceYear": 2025,
-      "grossDebtPctGdp": 89.2,
-      "y10": 3.846,
-      "debtDefinition": "General government consolidated gross debt (Maastricht debt), % of GDP"
+      "status": "error",
+      "referenceYear": null,
+      "grossDebtPctGdp": null,
+      "y10": null,
+      "lastError": "This operation was aborted"
     },
     {
       "id": "gr",

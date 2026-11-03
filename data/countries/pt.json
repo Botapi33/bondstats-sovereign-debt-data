@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "status": "live",
-  "generatedAt": "2026-11-03T01:45:02.139Z",
+  "status": "error",
+  "generatedAt": "2026-11-03T15:26:41.764Z",
   "country": {
     "id": "pt",
     "code": "PT",
@@ -13,28 +13,8 @@
     "dmo": "Portuguese Treasury and Debt Management Agency (IGCP)",
     "dmoUrl": "https://www.igcp.pt/en/"
   },
-  "fiscal": {
-    "referenceYear": 2025,
-    "debtDefinition": "General government consolidated gross debt (Maastricht debt), % of GDP",
-    "grossDebtPctGdp": 89.2,
-    "grossDebtUsdBn": 309.2,
-    "nominalGdpUsdBn": 346.6,
-    "fiscalBalancePctGdp": 0.7,
-    "realGrowthPct": 1.9,
-    "inflationPct": 2.3,
-    "nextYearDebtPctGdp": null,
-    "nextYear": null
-  },
-  "market": {
-    "asOf": "2026-09",
-    "y2": null,
-    "y5": null,
-    "y10": 3.846,
-    "y30": null,
-    "curveSource": "https://data-api.ecb.europa.eu/service/data/IRS/M.PT.L.L40.CI.0000.EUR.N.Z?format=csvdata",
-    "s2s10": null,
-    "s5s30": null
-  },
+  "fiscal": {},
+  "market": {},
   "ratings": {
     "sp": null,
     "moodys": null,
@@ -48,111 +28,9 @@
     "asOf": null,
     "sourceUrl": "https://www.igcp.pt/en/"
   },
-  "history": {
-    "debtPctGdp": {
-      "1995": 62.2,
-      "1996": 63.3,
-      "1997": 58.7,
-      "1998": 55.6,
-      "1999": 55.4,
-      "2000": 54.2,
-      "2001": 57.4,
-      "2002": 60,
-      "2003": 63.9,
-      "2004": 67.1,
-      "2005": 72.2,
-      "2006": 73.7,
-      "2007": 72.7,
-      "2008": 75.5,
-      "2009": 87.6,
-      "2010": 99.9,
-      "2011": 114,
-      "2012": 128.6,
-      "2013": 130.8,
-      "2014": 132.5,
-      "2015": 131,
-      "2016": 131.2,
-      "2017": 126,
-      "2018": 121.1,
-      "2019": 116.1,
-      "2020": 134.1,
-      "2021": 123.9,
-      "2022": 111.2,
-      "2023": 96.9,
-      "2024": 93,
-      "2025": 89.2
-    },
-    "fiscalBalancePctGdp": {
-      "1995": -5.2,
-      "1996": -4.7,
-      "1997": -3.7,
-      "1998": -4.4,
-      "1999": -3,
-      "2000": -3.2,
-      "2001": -4.7,
-      "2002": -3.3,
-      "2003": -5.7,
-      "2004": -6.2,
-      "2005": -6.1,
-      "2006": -4.2,
-      "2007": -2.9,
-      "2008": -3.8,
-      "2009": -9.9,
-      "2010": -11.4,
-      "2011": -7.7,
-      "2012": -6.2,
-      "2013": -5.2,
-      "2014": -7.4,
-      "2015": -4.5,
-      "2016": -1.9,
-      "2017": -3,
-      "2018": -0.4,
-      "2019": 0.1,
-      "2020": -5.8,
-      "2021": -2.8,
-      "2022": -0.3,
-      "2023": 1.1,
-      "2024": 0.7,
-      "2025": 0.7
-    }
-  },
+  "history": {},
   "rights": {
-    "fiscal": {
-      "source": "Eurostat — Government deficit/surplus, debt and associated data (gov_10dd_edpt1)",
-      "licenseUrl": "https://ec.europa.eu/eurostat/help/copyright-notice"
-    },
-    "macro": {
-      "source": "World Bank World Development Indicators",
-      "licenseUrl": "https://datacatalog.worldbank.org/public-licenses"
-    },
-    "market": {
-      "source": "https://data-api.ecb.europa.eu/service/data/IRS/M.PT.L.L40.CI.0000.EUR.N.Z?format=csvdata",
-      "licenseUrl": "https://www.ecb.europa.eu/stats/ecb_statistics/governance_and_quality_framework/html/usage_policy.en.html"
-    },
     "bondstatsNotice": "https://www.bondstats.org/data-license/"
   },
-  "sources": [
-    {
-      "name": "Eurostat — Government deficit/surplus, debt and associated data (gov_10dd_edpt1)",
-      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10dd_edpt1?lang=en&freq=A&unit=PC_GDP&sector=S13&na_item=GD&geo=PT",
-      "status": "ok",
-      "rights": "https://ec.europa.eu/eurostat/help/copyright-notice"
-    },
-    {
-      "name": "World Bank World Development Indicators",
-      "url": "https://api.worldbank.org/v2/country/PT/indicator/NY.GDP.MKTP.CD?format=json&per_page=100&date=1990:2030",
-      "status": "ok",
-      "rights": "https://datacatalog.worldbank.org/public-licenses"
-    },
-    {
-      "name": "Sovereign yield source",
-      "url": "https://data-api.ecb.europa.eu/service/data/IRS/M.PT.L.L40.CI.0000.EUR.N.Z?format=csvdata",
-      "status": "ok"
-    },
-    {
-      "name": "Portuguese Treasury and Debt Management Agency (IGCP)",
-      "url": "https://www.igcp.pt/en/",
-      "status": "reference"
-    }
-  ]
+  "lastError": "This operation was aborted"
 }
