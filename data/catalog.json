@@ -1,7 +1,7 @@
 {
   "version": 2,
   "status": "partial",
-  "generatedAt": "2026-11-10T15:44:31.375Z",
+  "generatedAt": "2026-11-11T00:12:50.275Z",
   "countryCount": 15,
   "countries": [
     {
@@ -53,11 +53,11 @@
       "code": "FR",
       "name": "France",
       "slug": "france",
-      "status": "error",
-      "referenceYear": null,
-      "grossDebtPctGdp": null,
-      "y10": null,
-      "lastError": "This operation was aborted"
+      "status": "live",
+      "referenceYear": 2025,
+      "grossDebtPctGdp": 115.7,
+      "y10": 4.44,
+      "debtDefinition": "General government consolidated gross debt (Maastricht debt), % of GDP"
     },
     {
       "id": "gb",
