@@ -1,7 +1,7 @@
 {
   "version": 2,
   "status": "live",
-  "generatedAt": "2026-11-11T00:12:50.275Z",
+  "generatedAt": "2026-11-11T15:33:54.062Z",
   "country": {
     "id": "es",
     "code": "ES",
@@ -26,10 +26,10 @@
     "nextYear": null
   },
   "market": {
-    "asOf": "2026-09",
+    "asOf": "2026-10",
     "y2": null,
     "y5": null,
-    "y10": 3.927,
+    "y10": 4.066,
     "y30": null,
     "curveSource": "https://data-api.ecb.europa.eu/service/data/IRS/M.ES.L.L40.CI.0000.EUR.N.Z?format=csvdata",
     "s2s10": null,
