@@ -1,7 +1,7 @@
 {
   "version": 2,
   "status": "partial",
-  "generatedAt": "2026-11-14T00:26:12.018Z",
+  "generatedAt": "2026-11-17T17:01:29.954Z",
   "countryCount": 15,
   "countries": [
     {
@@ -9,11 +9,11 @@
       "code": "US",
       "name": "United States",
       "slug": "united-states",
-      "status": "live",
-      "referenceYear": 2025,
-      "grossDebtPctGdp": 0,
-      "y10": 4.77,
-      "debtDefinition": "Central government debt, total, % of GDP"
+      "status": "error",
+      "referenceYear": null,
+      "grossDebtPctGdp": null,
+      "y10": null,
+      "lastError": "HTTP 502"
     },
     {
       "id": "jp",
@@ -23,7 +23,7 @@
       "status": "live",
       "referenceYear": 2025,
       "grossDebtPctGdp": 0,
-      "y10": 2.841,
+      "y10": 2.927,
       "debtDefinition": "Central government debt, total, % of GDP"
     },
     {
@@ -45,7 +45,7 @@
       "status": "live",
       "referenceYear": 2025,
       "grossDebtPctGdp": 62.8,
-      "y10": 3.43,
+      "y10": 3.42,
       "debtDefinition": "General government consolidated gross debt (Maastricht debt), % of GDP"
     },
     {
@@ -75,11 +75,11 @@
       "code": "CA",
       "name": "Canada",
       "slug": "canada",
-      "status": "live",
-      "referenceYear": 2025,
-      "grossDebtPctGdp": 0,
+      "status": "error",
+      "referenceYear": null,
+      "grossDebtPctGdp": null,
       "y10": null,
-      "debtDefinition": "Central government debt, total, % of GDP"
+      "lastError": "HTTP 502"
     },
     {
       "id": "au",

@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "status": "live",
-  "generatedAt": "2026-11-14T00:26:12.018Z",
+  "status": "error",
+  "generatedAt": "2026-11-17T17:01:29.954Z",
   "country": {
     "id": "ca",
     "code": "CA",
@@ -13,28 +13,8 @@
     "dmo": "Department of Finance Canada",
     "dmoUrl": "https://www.canada.ca/en/department-finance.html"
   },
-  "fiscal": {
-    "referenceYear": 2025,
-    "debtDefinition": "Central government debt, total, % of GDP",
-    "grossDebtPctGdp": 0,
-    "grossDebtUsdBn": 0,
-    "nominalGdpUsdBn": 2319.9,
-    "fiscalBalancePctGdp": null,
-    "realGrowthPct": 1.7,
-    "inflationPct": 2.1,
-    "nextYearDebtPctGdp": null,
-    "nextYear": null
-  },
-  "market": {
-    "asOf": null,
-    "y2": null,
-    "y5": null,
-    "y10": null,
-    "y30": null,
-    "curveSource": null,
-    "s2s10": null,
-    "s5s30": null
-  },
+  "fiscal": {},
+  "market": {},
   "ratings": {
     "sp": null,
     "moodys": null,
@@ -48,84 +28,9 @@
     "asOf": null,
     "sourceUrl": "https://www.canada.ca/en/department-finance.html"
   },
-  "history": {
-    "debtPctGdp": {
-      "1990": 61.7622404568793,
-      "1991": 67.4447435281779,
-      "1992": 70.7020527924547,
-      "1993": 75.1877082393509,
-      "1994": 75.9438464996237,
-      "1995": 77.3126219756355,
-      "1996": 78.0386679289258,
-      "1997": 74.9283269525943,
-      "1998": 72.4828768215638,
-      "1999": 66.2456345741726,
-      "2000": 58.7379742383571,
-      "2001": 57.4583564504362,
-      "2002": 54.1490287671244,
-      "2003": 51.2712553317649,
-      "2004": 46.8009507945123,
-      "2005": 46.0612626047686,
-      "2006": 43.2908103947337,
-      "2007": 39.1585639491399,
-      "2008": 45.3204018722496,
-      "2009": 53.1923451175655,
-      "2010": 53.149541550924,
-      "2011": 54.1191112874788,
-      "2012": 55.7149799857487,
-      "2013": 53.2423701593126,
-      "2014": 51.4745859314181,
-      "2015": 55.9830871905967,
-      "2016": 56.0209524890955,
-      "2017": 54.4551971694526,
-      "2018": 53.1446892525476,
-      "2019": 53.3550343019959,
-      "2020": 74.5543516882689,
-      "2021": 68.7631935004671,
-      "2022": 59.4286687896911,
-      "2023": 60.4553957724957,
-      "2024": 64.1314232901439,
-      "2025": 0
-    },
-    "fiscalBalancePctGdp": {}
-  },
+  "history": {},
   "rights": {
-    "fiscal": {
-      "source": "World Bank World Development Indicators",
-      "licenseUrl": "https://datacatalog.worldbank.org/public-licenses"
-    },
-    "macro": {
-      "source": "World Bank World Development Indicators",
-      "licenseUrl": "https://datacatalog.worldbank.org/public-licenses"
-    },
-    "market": {
-      "source": null,
-      "licenseUrl": null
-    },
     "bondstatsNotice": "https://www.bondstats.org/data-license/"
   },
-  "sources": [
-    {
-      "name": "World Bank World Development Indicators",
-      "url": "https://api.worldbank.org/v2/country/CA/indicator/GC.DOD.TOTL.GD.ZS?format=json&per_page=100&date=1990:2030",
-      "status": "ok",
-      "rights": "https://datacatalog.worldbank.org/public-licenses"
-    },
-    {
-      "name": "World Bank World Development Indicators",
-      "url": "https://api.worldbank.org/v2/country/CA/indicator/NY.GDP.MKTP.CD?format=json&per_page=100&date=1990:2030",
-      "status": "ok",
-      "rights": "https://datacatalog.worldbank.org/public-licenses"
-    },
-    {
-      "name": "Sovereign yield source",
-      "url": null,
-      "status": "unavailable"
-    },
-    {
-      "name": "Department of Finance Canada",
-      "url": "https://www.canada.ca/en/department-finance.html",
-      "status": "reference"
-    }
-  ]
+  "lastError": "HTTP 502"
 }
