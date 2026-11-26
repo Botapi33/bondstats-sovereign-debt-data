@@ -1,7 +1,7 @@
 {
   "version": 2,
   "status": "partial",
-  "generatedAt": "2026-11-26T02:24:38.537Z",
+  "generatedAt": "2026-11-26T17:52:09.649Z",
   "countryCount": 15,
   "countries": [
     {
@@ -45,7 +45,7 @@
       "status": "live",
       "referenceYear": 2025,
       "grossDebtPctGdp": 62.8,
-      "y10": 3.3,
+      "y10": 3.32,
       "debtDefinition": "General government consolidated gross debt (Maastricht debt), % of GDP"
     },
     {
